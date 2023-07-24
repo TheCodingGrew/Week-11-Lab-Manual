@@ -1,4 +1,4 @@
-# Week-11-Lab-Manual
+# Week 11-Lab Manual
 ## Deployment to Azure
 
 ### A. Azure portal
