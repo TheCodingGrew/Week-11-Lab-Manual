@@ -39,9 +39,26 @@
 
 6. Create 3 View(cshtml) pages for checkout, success and cancel. Then, Visit the link : https://stripe.com/docs/checkout/quickstart and copy the code for the corresponding files and paste it into your files.
 
-7. Create corresponding controller methods for all the 3 files. 
+7. In HomeController.cs, create methods to Invoke these files such as
 
-8.  Go to HomeController.cs and paste the following **inside HomeController class**. Remember to replace your secret key and product ID. Remove the angle brackets as well.
+   ```
+    public IActionResult Checkout()
+        {
+            return View();
+        }
+
+        public IActionResult Success()
+        {
+            return View();
+        }
+
+        public IActionResult cancel()
+        {
+            return View();
+        }
+   ``` 
+
+9.  Go to HomeController.cs and paste the following **inside HomeController class**. Remember to replace your secret key and product ID. Remove the angle brackets as well.
 
 ```
 [Route("create-checkout-session")]
