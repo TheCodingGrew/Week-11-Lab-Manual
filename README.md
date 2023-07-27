@@ -35,7 +35,7 @@
 
 4. Open your visual studio and go the project where you want to install the payment option.
 
-5. Install stripe NuGet package.
+5. Install Stripe.net NuGet package.
 
 6. Create 3 View(cshtml) pages for checkout, success and cancel. Then, Visit the link : https://stripe.com/docs/checkout/quickstart and copy the code for the corresponding files and paste it into your files.
 
