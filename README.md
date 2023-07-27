@@ -27,7 +27,7 @@
 
 ## Stripe Payment Integration
 
-1. Create an account with create an account Stripe
+1. Create an account with create an account Stripe. You need not activate your account. Also do not enter credit card/banking information 
 
 2. In your dashboard, you can find your publishable key and Secret Key. Copy it as we will be using it in the next steps. 
 
