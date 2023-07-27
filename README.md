@@ -41,7 +41,7 @@
 
 7. Create corresponding controller methods for all the 3 files. 
 
-8.  Go to HomeController.cs and paste the following **inside HomeController class**
+8.  Go to HomeController.cs and paste the following **inside HomeController class**. Remember to replace your secret key and product ID. Remove the angle brackets as well.
 
 ```
 [Route("create-checkout-session")]
